@@ -1,0 +1,123 @@
+/*Created :Created 11-11-2021 09:20:44.44
+
+By : dai re
+
+GitHub : [maydei](https://github.com/maidey)
+
+Email :[dairewahandi@gmail.com](mailto:dairewahandi@gmail.com)
+
+Telegram : [@mogionc](https://t.me/mogionc)
+
+Fb [dai re](https://fb.com/deiterada)
+*/
+@font-face {
+    font-family: good;
+    src: url(src/Dongle-Bold.ttf);
+    src: url(src/Dongle-Light.ttf);
+    src: url(src/Dongle-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: o;
+}
+input.user,
+input.pass,
+input.sub {
+    margin-top: 1em;
+}
+input.user {
+    background: linear-gradient(to bottom right, rgb(48,146,210), rgb(17,101,155));
+    color: white;
+    border-radius: 3px;
+    text-indent: 5px;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+input.pass {
+    background: linear-gradient(to bottom right, rgb(48,146,210), rgb(17,101,155));
+    color: white;
+    border-radius: 3px;
+    text-indent: 5px;
+    padding: 0;
+    /* margin: 0; */
+    border: none;
+}
+input.sub {
+    padding: 0;
+    /* margin: 0; */
+    border: none;
+}
+.main {
+    background: linear-gradient(to bottom right, rgb(48,146,210), rgb(17,101,155));
+    height: 100vh;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: good;
+}
+.main>.box-login {
+    width: 12em;
+    border-radius: 5px;
+    height: 8em;
+    padding: 0.5em;
+    display: flex;
+    background: linear-gradient(to bottom right, rgba(255,255,255,0.424) ,rgba(255,255,255,0.799));
+}
+.main>.box-login>.input {
+    /* background-color: red; */
+    flex: 60%;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    height: 100%;
+}
+.main>.box-login>.right-info {
+    /* background-color: blue; */
+    flex: 40%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+}
+.main>.box-login>.right-info>.logo {
+    color: rgb(17,101,155);
+    font-size: 5em;
+}
+.main>.box-login>.input>.user {
+    width: 100%;
+}
+.main>.box-login>.input>.user::placeholder {
+    color: white;
+    font-size: 1em;
+    font-family: good;
+    opacity: 0.5;
+}
+.main>.box-login>.input>.pass {
+    width: 100%;
+}
+.main>.box-login>.input>.pass::placeholder {
+    font-size: 1em;
+    color: white;
+    font-family: good;
+    opacity: 0.5;
+}
+.main>.box-login>.input>.sub {
+    width: 50%;
+    border-radius: 3px;
+    font-family: good;
+    box-shadow: lightslategray 1px 1px 6px;
+}
+.main>.box-login>.input>.cek {
+    border-radius: 3px;
+    width: 11px;
+}
+.main>.box-login>.input>span {
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 1;
+    color: rgb(17,101,155);
+    padding-bottom: 0.5em;
+}
